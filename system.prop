@@ -3,6 +3,7 @@
 
 # cannot take spaces
 rild.libargs=-d /dev/smd0
+dalvik.vm.dexopt-data-only=1
 
 ro.cdma.home.operator.numeric=310120
 ro.cdma.home.operator.alpha=Sprint
