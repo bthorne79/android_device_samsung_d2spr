@@ -1,5 +1,11 @@
 $(call inherit-product, device/samsung/d2spr/full_d2spr.mk)
 
+# Enhanced NFC
+$(call inherit-product, vendor/oct/config/nfc_enhanced.mk)
+
+# Inherit some common CM stuff.
+$(call inherit-product, vendor/oct/config/common_full_phone.mk)
+
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME=d2spr \
