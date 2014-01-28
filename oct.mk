@@ -1,6 +1,6 @@
 $(call inherit-product, device/samsung/d2spr/full_d2spr.mk)
 
-# Inherit some common CM stuff.
+# Inherit some common OctOS stuff.
 $(call inherit-product, vendor/oct/config/common_full_phone.mk)
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
